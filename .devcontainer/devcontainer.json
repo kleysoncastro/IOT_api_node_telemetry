@@ -1,0 +1,24 @@
+{
+	"name": "Go DevContainer",
+	"image": "mcr.microsoft.com/devcontainers/javascript-node:20-bookworm",
+	"features": {
+	  "ghcr.io/duduribeiro/devcontainer-features/lunarvim:0": {},
+	  "ghcr.io/nils-geistmann/devcontainers-features/zsh:0": {
+		"setLocale": true,
+		"theme": "robbyrussell",
+		"plugins": "git docker", // Os plugins manuais serão adicionados no setup-zsh.sh
+		"desiredLocale": "en_US.UTF-8 UTF-8"
+	  }
+	},
+	"postCreateCommand": ".devcontainer/setup-zsh.sh",
+	"customizations": {
+	  "vscode": {
+		"settings": {
+		  "terminal.integrated.defaultProfile.linux": "zsh"
+		
+		}
+	  }
+	},
+	"mounts": [],
+	"remoteUser": "vscode"
+  }

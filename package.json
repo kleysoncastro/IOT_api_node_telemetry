@@ -11,15 +11,22 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cors": "2.8.5",
+    "dotenv": "17.2.1",
     "eslit": "6.0.0",
     "express": "5.1.0",
-    "tsx": "4.20.5"
+    "tsx": "4.20.5",
+    "zod": "4.1.5"
   },
   "devDependencies": {
     "@eslint/js": "9.34.0",
+    "@types/cors": "2.8.19",
+    "@types/express": "5.0.3",
+    "@types/node": "24.3.0",
     "eslint": "9.34.0",
     "globals": "16.3.0",
     "jiti": "2.5.1",
-    "typescript-eslint": "8.41.0"
+    "typescript-eslint": "8.41.0",
+    "typescritp": "1.0.0"
   }
 }
