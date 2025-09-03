@@ -1,9 +1,10 @@
 import { ZodError } from "zod";
-import { env } from "./env/env";
+import { env } from "@/env/env.js";
 import cors from "cors";
 
-import express, { Request, Response, NextFunction } from "express";
-import { routes } from "./http/routes";
+import express from "express";
+import type { Request, Response, NextFunction } from "express";
+import { routes } from "@/http/routes.js";
 
 
 
