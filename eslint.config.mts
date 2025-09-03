@@ -16,6 +16,9 @@ export default defineConfig([
         },
       },
     },
+    rules: {
+      quotes: ["error","duble"]
+    },
   },
   tseslint.configs.recommended,
 ]);
